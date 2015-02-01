@@ -1,0 +1,17 @@
+application: genesis
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: static/icons/favicon.ico
+  upload: static/icons/favicon\.ico
+
+- url: .*
+  script: app.public_app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
