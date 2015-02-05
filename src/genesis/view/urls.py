@@ -1,6 +1,6 @@
 import webapp2
 
-from . import handlers
+from .base import handlers
 
 endpoints = [
     webapp2.Route('/', handler=handlers.MainHandler)

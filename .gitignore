@@ -1,2 +1,4 @@
 *.pyc
 *.DS_Store
+src/node_modules/
+src/static/js/tags.js

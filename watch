@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import os
+
+os.system('genesis/node_modules/.bin/riot '
+          '-w '
+          './genesis '
+          'genesis/static/js/tags.js')

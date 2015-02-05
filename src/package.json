@@ -1,0 +1,8 @@
+{
+    "name": "genesis",
+    "description": "My Website",
+    "author": "Kenny Trytek",
+    "dependencies": {
+        "riot": "^2.0.7"
+    }
+}

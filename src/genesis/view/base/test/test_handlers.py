@@ -2,7 +2,7 @@ from mock import patch
 from unittest import TestCase
 from webtest import TestApp
 
-from ...app import public_app
+from ....app import public_app
 
 
 class BaseTestCase(TestCase):
